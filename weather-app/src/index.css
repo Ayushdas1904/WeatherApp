@@ -21,9 +21,18 @@ body{
     padding: 20px;
 }
 
+.logoName{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
 .search-bar{
     background-color: rgb(89, 89, 89);
-    border: none;
+    border: 10px ridge rgba(253, 255, 216, 0.6);
     color: white;
     border-radius: 5px;
     padding: 7px;
@@ -35,7 +44,9 @@ body{
 }
 
 .search{
-    width: 12px;
+    width: 14px;
+    position: relative;
+    right: 10px;
 }
 .search:hover{
     filter: invert(1);
@@ -79,6 +90,24 @@ body{
     align-items: center;
 }
 
-#myVideo{
-    width: 200px;
+#myImg{
+    /* border: 1px solid black;
+    border-radius: 10px;*/
+    padding: 30px;
+}
+
+.location_not_found{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 85vh;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+
+}
+
+#errorImg{
+    width: 300px;
 }
